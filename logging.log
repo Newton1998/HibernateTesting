@@ -2041,3 +2041,537 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
 2019-05-12 13:55:41 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 2019-05-12 13:55:41 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@21362712] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 2019-05-12 13:55:42 INFO  pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/testing]
+2019-05-13 15:55:07 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: OneToMany
+	...]
+2019-05-13 15:55:08 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 15:55:08 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 15:55:08 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 15:55:08 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 15:55:08 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 15:55:08 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 15:55:08 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 15:55:08 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 15:55:09 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 16:37:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: OneToMany
+	...]
+2019-05-13 16:37:52 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 16:37:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 16:37:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 16:37:52 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 16:37:52 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 16:37:52 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 16:37:52 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 16:37:52 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 16:37:54 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 16:38:13 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: OneToMany
+	...]
+2019-05-13 16:38:13 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 16:38:13 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 16:38:13 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 16:38:14 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 16:38:14 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 16:38:14 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 16:38:14 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 16:38:14 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 16:38:15 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 16:41:42 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: OneToMany
+	...]
+2019-05-13 16:41:42 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 16:41:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 16:41:43 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 16:41:43 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 16:41:43 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 16:41:43 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 16:41:43 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 16:41:43 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 16:41:44 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 16:43:36 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: OneToMany
+	...]
+2019-05-13 16:43:36 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 16:43:36 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 16:43:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 16:43:36 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 16:43:36 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 16:43:36 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 16:43:36 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 16:43:36 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 16:43:37 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 16:43:38 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@127e70c5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-13 16:43:39 INFO  pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/testing]
+2019-05-13 17:16:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-13 17:16:44 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 17:16:44 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 17:16:44 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 17:16:45 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 17:16:45 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 17:16:45 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 17:16:45 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 17:16:45 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 17:16:46 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 17:18:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-13 17:18:17 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 17:18:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 17:18:18 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 17:18:18 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 17:18:18 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 17:18:18 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 17:18:18 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 17:18:18 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 17:18:20 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 17:25:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-13 17:25:25 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 17:25:25 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 17:25:25 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 17:25:25 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 17:25:25 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 17:25:25 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 17:25:25 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 17:25:25 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 17:25:26 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 17:25:27 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3670f00] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-13 17:25:27 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:273)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:203)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:889)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at tests.Test1.main(Test1.java:13)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rank integer, primary key (employee_id)) engine=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2019-05-13 17:25:28 WARN  SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2019-05-13 17:25:28 ERROR SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rank, employee_id) values ('Vadim', 0, 16)' at line 1
+2019-05-13 17:25:28 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-05-13 17:25:28 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+2019-05-13 17:28:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-13 17:28:35 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 17:28:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 17:28:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 17:28:35 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 17:28:35 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 17:28:35 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 17:28:35 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 17:28:35 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 17:28:36 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 17:28:37 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@58c540cf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-13 17:28:37 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@514eedd8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-13 17:28:37 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:440)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:155)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:889)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at tests.Test1.main(Test1.java:13)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rank integer, primary key (employee_id)) engine=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2019-05-13 17:28:37 INFO  SchemaCreatorImpl:489 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@37cd92d6'
+2019-05-13 17:28:38 WARN  SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2019-05-13 17:28:38 ERROR SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rank, employee_id) values ('Vadim', 0, 1)' at line 1
+2019-05-13 17:28:38 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-05-13 17:28:38 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+2019-05-13 17:31:55 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-13 17:31:56 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 17:31:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 17:31:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 17:31:56 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 17:31:56 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 17:31:56 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 17:31:56 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 17:31:56 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 17:31:57 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 17:31:58 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@51f49060] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-13 17:31:58 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:273)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:203)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:889)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at tests.Test1.main(Test1.java:13)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rank integer, primary key (employee_id)) engine=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2019-05-13 17:31:59 WARN  SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2019-05-13 17:31:59 ERROR SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rank) values ('Vadim', 0)' at line 1
+2019-05-13 17:48:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-13 17:48:17 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 17:48:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 17:48:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 17:48:17 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 17:48:17 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 17:48:18 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 17:48:18 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 17:48:18 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 17:48:19 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 17:48:19 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3670f00] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-13 17:48:19 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:273)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:203)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:889)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at tests.Test1.main(Test1.java:13)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rank varchar(255), primary key (employee_id)) engine=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2019-05-13 17:48:20 WARN  SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2019-05-13 17:48:20 ERROR SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rank, employee_id) values ('Vadim', 'JUNIOR', 7)' at line 1
+2019-05-13 17:48:20 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-05-13 17:48:20 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+2019-05-13 17:49:00 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-13 17:49:00 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 17:49:00 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 17:49:00 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 17:49:00 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 17:49:00 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 17:49:00 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 17:49:00 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 17:49:00 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 17:49:02 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 17:49:03 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46ab18da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-13 17:49:03 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:273)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:203)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:889)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at tests.Test1.main(Test1.java:13)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rankEmployee varchar(255), primary key (employee_id)) engine=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2019-05-13 17:49:04 WARN  SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2019-05-13 17:49:04 ERROR SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rankEmployee, employee_id) values ('Vadim', 'JUNIOR', 13)' at line 1
+2019-05-13 17:49:04 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-05-13 17:49:04 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+2019-05-13 17:49:22 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-13 17:49:23 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 17:49:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 17:49:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 17:49:23 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 17:49:23 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 17:49:23 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 17:49:23 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 17:49:23 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 17:49:24 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 17:49:25 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46ab18da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-13 17:49:25 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:273)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:203)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:889)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at tests.Test1.main(Test1.java:13)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rankEmployee varchar(255), primary key (employee_id)) engine=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2019-05-13 17:49:25 WARN  SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2019-05-13 17:49:25 ERROR SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rankEmployee, employee_id) values ('Vadim', 'JUNIOR', 19)' at line 1
+2019-05-13 17:49:25 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-05-13 17:49:25 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+2019-05-13 17:50:29 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-13 17:50:29 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-13 17:50:29 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-13 17:50:29 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-13 17:50:30 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-13 17:50:30 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-13 17:50:30 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-13 17:50:30 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-13 17:50:30 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-13 17:50:30 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-13 17:50:31 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2b6fcb9f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-13 17:50:31 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:273)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:203)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:889)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at tests.Test1.main(Test1.java:13)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rankEmployee varchar(255), primary key (employee_id)) engine=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2019-05-13 17:53:07 WARN  SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2019-05-13 17:53:07 ERROR SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rankEmployee, employee_id) values ('Vadim', 'JUNIOR', 25)' at line 1
+2019-05-13 17:53:07 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-05-13 17:53:07 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+2019-05-14 14:48:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: OneToMany
+	...]
+2019-05-14 14:48:21 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-14 14:48:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-14 14:48:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-14 14:48:21 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-14 14:48:21 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-14 14:48:21 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-14 14:48:21 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-14 14:48:21 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-14 14:48:22 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 14:48:23 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1cf2fed4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-14 14:48:24 INFO  pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/testing]
+2019-05-14 14:58:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: OneToOne
+	...]
+2019-05-14 14:58:23 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-14 14:58:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-14 14:58:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-14 14:58:23 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-14 14:58:23 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-14 14:58:23 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-14 14:58:23 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-14 14:58:23 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-14 14:58:24 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 14:58:25 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1133ec6e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-14 14:58:26 INFO  pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/testing]
+2019-05-14 15:00:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-14 15:00:21 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-14 15:00:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-14 15:00:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-14 15:00:22 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-14 15:00:22 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-14 15:00:22 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-14 15:00:22 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-14 15:00:22 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-14 15:00:23 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 15:00:23 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@579d011c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-14 15:00:23 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:525)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:470)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:273)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:203)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:110)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:452)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:889)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at tests.Test1.main(Test1.java:13)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rankEmployee varchar(255), primary key (employee_id)) engine=MyISAM' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2019-05-14 15:00:24 WARN  SqlExceptionHelper:129 - SQL Error: 1064, SQLState: 42000
+2019-05-14 15:00:24 ERROR SqlExceptionHelper:131 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rankEmployee, employee_id) values ('Vadim', 'JUNIOR', 36)' at line 1
+2019-05-14 15:00:24 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-05-14 15:00:24 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.SQLGrammarException: could not execute statement]
+2019-05-14 15:03:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-14 15:03:45 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-14 15:03:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-14 15:03:45 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-14 15:03:45 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-14 15:03:45 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-14 15:03:45 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-14 15:03:45 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-14 15:03:45 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-14 15:03:46 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 15:03:47 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46ab18da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-14 15:03:47 WARN  SqlExceptionHelper:129 - SQL Error: 1364, SQLState: HY000
+2019-05-14 15:03:47 ERROR SqlExceptionHelper:131 - Field 'id' doesn't have a default value
+2019-05-14 15:03:47 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-05-14 15:03:47 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2019-05-14 15:03:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-14 15:03:58 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-14 15:03:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-14 15:03:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-14 15:03:58 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-14 15:03:58 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-14 15:03:58 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-14 15:03:58 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-14 15:03:58 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-14 15:04:00 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 15:04:01 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46ab18da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-14 15:04:01 WARN  SqlExceptionHelper:129 - SQL Error: 1364, SQLState: HY000
+2019-05-14 15:04:01 ERROR SqlExceptionHelper:131 - Field 'id' doesn't have a default value
+2019-05-14 15:04:01 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2019-05-14 15:04:01 ERROR ExceptionMapperStandardImpl:39 - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute statement]
+2019-05-14 15:07:00 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-14 15:07:01 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-14 15:07:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-14 15:07:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-14 15:07:01 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-14 15:07:01 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-14 15:07:01 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-14 15:07:01 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-14 15:07:01 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-14 15:07:02 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 15:07:03 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46ab18da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-14 15:07:04 INFO  pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/testing]
+2019-05-14 15:08:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-14 15:08:52 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-14 15:08:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-14 15:08:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-14 15:08:52 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-14 15:08:52 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-14 15:08:52 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-14 15:08:52 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-14 15:08:52 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-14 15:08:53 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 15:08:54 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46ab18da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-14 15:08:54 INFO  pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/testing]
+2019-05-14 19:33:55 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: ManyToMany
+	...]
+2019-05-14 19:33:55 INFO  Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2019-05-14 19:33:55 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-05-14 19:33:55 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-05-14 19:33:55 WARN  pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-05-14 19:33:55 INFO  pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/testing]
+2019-05-14 19:33:55 INFO  pooling:135 - HHH10001001: Connection properties: {user=root, password=****, autocommit=false}
+2019-05-14 19:33:55 INFO  pooling:140 - HHH10001003: Autocommit mode: false
+2019-05-14 19:33:55 INFO  DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-05-14 19:33:57 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 19:33:58 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3d3f761a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-05-14 19:33:58 INFO  pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/testing]

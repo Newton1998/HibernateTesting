@@ -13,6 +13,7 @@
         <module>JPAOperations</module>
         <module>HibernateOneToMany</module>
         <module>JPQLExamples</module>
+        <module>HibernateManyToMany</module>
     </modules>
 
     <dependencies>
