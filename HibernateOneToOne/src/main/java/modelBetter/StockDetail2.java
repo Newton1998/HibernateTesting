@@ -1,7 +1,5 @@
 package modelBetter;
 
-import modelSimple.Stock;
-
 import javax.persistence.*;
 import java.util.Date;
 

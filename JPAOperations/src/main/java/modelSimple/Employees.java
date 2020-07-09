@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "Employees")
-public class Employee{
+public class Employees {
 
     @Id
     @Column(name = "id")
@@ -14,10 +14,10 @@ public class Employee{
     private double salary;
     private String deg;
 
-    public Employee() {
+    public Employees() {
     }
 
-    public Employee(String ename, double salary, String deg) {
+    public Employees(String ename, double salary, String deg) {
         this.ename = ename;
         this.salary = salary;
         this.deg = deg;

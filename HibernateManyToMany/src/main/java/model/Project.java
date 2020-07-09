@@ -14,7 +14,7 @@ public class Project {
 
     private String projectName;
 
-    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "projects")
+    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "projects", cascade = CascadeType.ALL)
     private Set<Employee> employees = new HashSet<>();
 
     public Project() {

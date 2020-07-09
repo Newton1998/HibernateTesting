@@ -1,6 +1,6 @@
 package util;
 
-import modelSimple.Employee;
+import modelSimple.Employees;
 import org.apache.log4j.Logger;
 
 import javax.persistence.EntityManager;
@@ -15,9 +15,9 @@ public class JPAOperations {
 
         EntityManager entitymanager = emfactory.createEntityManager( );
         entitymanager.getTransaction().begin();
-        Employee employee = new Employee();
+        Employees employee = new Employees();
         employee.setEname("Vadym");
-        employee.setSalary(40000);
+        employee.setSalary(40000 + (int)(Math.random() * 500));
         employee.setDeg("Technical Manager");
         entitymanager.persist(employee);
         entitymanager.getTransaction().commit();
@@ -31,7 +31,7 @@ public class JPAOperations {
 
         EntityManager entitymanager = emfactory.createEntityManager();
         entitymanager.getTransaction().begin();
-        Employee employee = entitymanager.find(Employee.class,2);
+        Employees employee = entitymanager.find(Employees.class,12);
 
         //before update
         System.out.println(employee);
@@ -48,13 +48,15 @@ public class JPAOperations {
     public static void findEmployee(){
         EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "operations" );
         EntityManager entitymanager = emfactory.createEntityManager();
-        Employee employee = entitymanager.find( Employee.class, 2);
+        Employees employee = entitymanager.find( Employees.class, 12);
 
         System.out.println("employee ID = " + employee.getEid( ));
         System.out.println("employee NAME = " + employee.getEname( ));
         System.out.println("employee SALARY = " + employee.getSalary( ));
         System.out.println("employee DESIGNATION = " + employee.getDeg( ));
         LOG.info("FIND");
+        entitymanager.close();
+        emfactory.close();
 
     }
 
@@ -63,7 +65,7 @@ public class JPAOperations {
         EntityManager entitymanager = emfactory.createEntityManager( );
         entitymanager.getTransaction( ).begin( );
 
-        Employee employee = entitymanager.find(Employee.class,2);
+        Employees employee = entitymanager.find(Employees.class,2);
         entitymanager.remove(employee);
         entitymanager.getTransaction().commit();
         LOG.info("DELETE");

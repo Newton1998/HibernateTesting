@@ -18,7 +18,7 @@ public class Test1 {
         Items items1 = new Items();
         Items items2 = new Items();
 
-        cart.setCustomerName("Vadym");
+        cart.setCustomerName("Oleh");
 
         items1.setDate(new Date());
         items2.setDate(new Date());
@@ -28,7 +28,6 @@ public class Test1 {
 
         items1.setCart(cart);
         items2.setCart(cart);
-
 
         entitymanager.getTransaction().begin();
 

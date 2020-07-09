@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HibernateManyToMany" />
-        <module name="HibernateOneToMany" />
-        <module name="HibernateOneToOne" />
         <module name="JPAOperations" />
+        <module name="HibernateManyToMany" />
+        <module name="HibernateOneToOne" />
         <module name="JPQLExamples" />
+        <module name="ManyToMany" />
+        <module name="HibernateOneToMany" />
       </profile>
     </annotationProcessing>
   </component>

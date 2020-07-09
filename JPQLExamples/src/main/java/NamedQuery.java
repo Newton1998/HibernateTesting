@@ -17,7 +17,7 @@ public class NamedQuery {
         manager.getTransaction().commit();
 
         Query namedQuery = manager.createNamedQuery("get names by id");
-        namedQuery.setParameter("codersId",10L);
+        namedQuery.setParameter("codersId",20L);
         Coders coders = (Coders) namedQuery.getSingleResult();
         System.out.println(coders);
     }

@@ -25,8 +25,9 @@ public class QueryTest {
                 manager.createQuery("SELECT c FROM Coders c WHERE c.name=:inName");
         List list =
                 query.setParameter("inName", "Oleh")
-                        .setFirstResult(0)
+                        .setFirstResult(2)
                         .getResultList();
         list.stream().forEach(System.out::println);
+
     }
 }

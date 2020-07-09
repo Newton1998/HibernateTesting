@@ -5,6 +5,6 @@ public class Test {
         JPAOperations.createEmployee();
         JPAOperations.findEmployee();
         JPAOperations.updateEmployee();
-        JPAOperations.deleteEmployee();
+        //JPAOperations.deleteEmployee();
     }
 }
